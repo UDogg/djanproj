@@ -1,0 +1,53 @@
+# macOS specific files
+.DS_Store
+
+# Django development files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Django database files
+db.sqlite3
+
+# Static files
+/staticfiles/
+/static/
+
+# Media files
+/media/
+
+# Environment variables file
+.env
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+
+# Project configuration files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Caches
+__pycache__/
+
+# Virtual environment specific files
+venv/
+env/
+bin/
+lib/
+include/
+pip-selfcheck.json
+.DS_Store
+*.swp
