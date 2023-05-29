@@ -1,5 +1,6 @@
 # macOS specific files
 .DS_Store
+venv
 
 # Django development files
 *.log
