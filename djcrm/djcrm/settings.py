@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+from crispy_forms import __version__ as CRISPY_FORMS_VERSION
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,6 +28,7 @@ SECRET_KEY = 'django-insecure-js3evg1rq-ps)3pkd+b8$vl(s$8q-049_oil$c*9y%92sp&&_4
 DEBUG = True
 
 ALLOWED_HOSTS = []
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 # Application definition
@@ -38,6 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'leads',
+    'django_filters',
+    
+    'crispy_forms',
+    "crispy_tailwind",
+    'tailwind',
+    'theme',
+    'agents',
 ]
 
 MIDDLEWARE = [
